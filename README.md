@@ -1,6 +1,6 @@
 # AlexaSkillTemplates
 
-Templates for the ASK CLI to quickly generate Alexa Skills. Create a quick-start skill from a template using the ASK CLI tool:
+Templates for the [ASK CLI](https://developer.amazon.com/docs/smapi/quick-start-alexa-skills-kit-command-line-interface.html) to quickly generate Alexa Skills. Create a quick-start skill from a template using the ASK CLI tool:
 
 ```
 ask new --url http://AlexaSkillTemplates.com/index.json
@@ -8,20 +8,20 @@ ask new --url http://AlexaSkillTemplates.com/index.json
 
 ### Example
 
-The example below shows the workflow of creating an Alexa Skill using the alexa-app-bootstrap template. After using the `ask new` command, the skill is instantly deployable with no changes.
+The example below shows the workflow of creating an Alexa Skill using the *[alexa-app-bootstrap](https://github.com/matt-kruse/alexa-app-bootstrap)* module template. After using the `ask new` command, the skill is instantly deployable with no changes.
 
 However, in a real situation, you would want to go into `src/index.js` to customize the skill name, invocation name, and behavior, then deploy.
 
 ```
 PS C:\workspace> ask new --url http://AlexaSkillTemplates.com/index.json
-? List of templates you can choose *Alexa-App Bootstrap*
-? Please type in your skill name:  *alexa-example*
+? List of templates you can choose **Alexa-App Bootstrap**
+? Please type in your skill name:  **alexa-example**
 [Warn]: Downloading skill template from unofficial resource. Please make sure you understand what each script is doing to best protect yourself from malicious usage
-? Would you still like to continue execution ? *Yes*
+? Would you still like to continue execution ? **Yes**
 Skill "alexa-example" has been created based on the chosen template
 [Info]: Could not find hooks folder, creating a new hooks folder and downloading scripts.
 PS C:\workspace> *cd alexa-example*
-PS C:\workspace\alexa-example> *node deploy.js*
+PS C:\workspace\alexa-example> **node deploy.js**
 Using ask-cli to deploy the skill. Please wait for output...
 ###########################
 ##### pre-deploy hook #####
