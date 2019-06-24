@@ -1,6 +1,6 @@
 {
   "Alexa-App Bootstrap": {
-    "gitUrl": "https://github.com/matt-kruse/alexa-app-bootstrap-sample.git",
+    "gitUrl": "https://github.com/matt-kruse/alexa-app-bootstrap-template.git",
     "description": "A quick start to building and deploying a skill using the alexa-app-bootstrap module."
   }
 }
